@@ -1,0 +1,25 @@
+/**
+Your application specific css.
+Only import here
+ */
+@import "variables";
+
+//base
+@import "base/mixins";
+@import "base/forms";
+
+@import "typography";
+
+@import "global";
+@import "header";
+
+//Page-specific styles
+@import "index";
+@import "login";
+@import "job-listing";
+@import "job-detail";
+
+@import "footer";
+@import "responsive";
+
+

@@ -1,0 +1,41 @@
+.form-control:focus {
+    color: #495057;
+    background-color: #fffefe;
+    border-color: #80bdff00;
+    outline: 1px solid #b5b1b1de;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+}
+.listing-title-row{
+    p{
+        font-weight: 100;
+        text-align: center;
+        margin: 3rem 0 2rem 0;
+        color: $black;
+        
+    }
+}
+.searching-filters-row {
+    background: #eee;
+    padding: 2rem 1rem 1rem;
+    border-radius: 10px;
+    @include shadow;
+} 
+.Action-button{
+    @include Action-button;
+}
+.jobcard{
+    .card{
+        margin: 1rem 0;
+        border-radius: 10px;
+        @include shadow;
+    }
+    .JD{
+        display: flex;
+        .experties {
+            flex-grow: 1;
+        }         
+    }     
+}
+
+ 
+

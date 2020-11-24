@@ -1,0 +1,31 @@
+ body{
+    font-family: 'Linux Libertine',serif;
+ }
+ h1{
+   font: 400 60px/1 'linux';  
+    color: #00417a;
+ }
+ p{
+   color:$text;
+   font: 400 21px/1.7 'Linux Libertine',serif;
+ }
+ .hero-banner{
+     // background: linear-gradient(0deg,rgb(11 47 76 / 30%),rgb(135 0 37 / 25%)),url(https://jobify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/04/hero-image-text-left-darker.jpg);
+    background: url(https://jobify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/04/hero-image-text-left-darker.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;   
+ }
+ 
+ .page-banner{
+    // background: linear-gradient(0deg,rgb(11 47 76 / 30%),rgb(135 0 37 / 25%)),url(https://jobify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/04/hero-image-text-left-darker.jpg);height: 100vh;
+    background: url(https://jobify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/04/hero-image-text-left-darker.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat; 
+ }
+ 

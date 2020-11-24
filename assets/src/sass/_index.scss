@@ -1,0 +1,40 @@
+// Hero Banner Styles
+.hero-banner {    
+      .banner-contant{
+       @include centered;
+       text-align: center;
+       h1{
+        font-weight: 300;
+        letter-spacing: 6px;
+        color: $dark-blue;
+       }
+       p{
+        font-family: 'linux libertine';
+        font-size: 1.3125rem;
+        font-weight: 200;
+        word-spacing: 5px;
+        margin: 1rem 0 3rem 0;
+        color: $dark-blue;
+       }
+       a{
+        @include Action-button;
+        text-decoration: none;       
+       }
+      }     
+      img{
+        height: 70vh;
+      }
+      
+  }
+  .home-section{
+    padding: 5rem 0 0 0;
+    &:last-child{
+      padding: 5rem;
+    }
+    .section-heading {
+      padding: 0 0 2rem 0;
+  }
+  }
+  
+  
+   

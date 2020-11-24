@@ -1,0 +1,13 @@
+@media print {
+	body { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+	header[role="banner"], #container > aside, #featured-articles, div.flex.contacts.apart, div.flex.contacts.end, p.sharebuttons, #prevnext, .more-link, #scrollsignal { display: none; }
+	pre code { widows: 3; orphans: 3; }
+	article { position: relative; }
+	h2 { page-break-before: always; }
+	img, figure, aside {
+    	page-break-before: auto;
+		page-break-after: auto; 
+		page-break-inside: avoid;
+		display: block;
+	}
+}

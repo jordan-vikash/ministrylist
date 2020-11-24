@@ -1,0 +1,54 @@
+
+
+@mixin centered {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%,-43%);
+  text-align: center;
+  background: rgba(255,255,255,.7);
+  padding: 2rem 10rem;
+}
+@mixin half-centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,.7);
+  padding: 2rem 10rem;
+}
+
+@mixin login-button{
+  transition: .4s;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $white !important;   
+  width: 150px;
+  text-align: center;
+  padding: .4rem;
+  background: $dark-blue;
+  font-size: 19px !important;
+}
+
+@mixin Action-button{  
+  transition: .4s;
+  display: inline-block;
+  background: #00417a;
+  color: $white;
+  font-size: 12px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 2.2em;
+  &:hover{
+    background: #821427;
+    color: #fff;
+  }
+}
+
+@mixin shadow{
+  box-shadow: 0 0 4px -1px #00000082;
+}
+ 

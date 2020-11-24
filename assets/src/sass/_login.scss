@@ -1,0 +1,39 @@
+.login-hero-banner {    
+    .login-baner-contant{
+        @include half-centered;
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+.login-section{
+    width: 37%;
+    display: block;
+    box-shadow: 0 0 5px -2px black;
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    .form-control:focus {
+        color: #495057;
+        background-color: #fffefe;
+        border-color: #80bdff00;
+        outline: 1px solid #b5b1b1de;
+        box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+    }
+    .email {
+        margin: 0 0 2rem 0;
+    }
+    .Action-button{
+        @include Action-button;
+    }
+    .form-links {
+        margin: 1rem 0 0 0;
+        a{
+            color: #000;
+            font-size: .8rem;
+        }
+    }
+}
+
+
+
